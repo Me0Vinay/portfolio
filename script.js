@@ -553,7 +553,10 @@ function initGanttChart() {
             tooltip.classList.remove('visible');
         });
 
-        barsContainer.appendChild(bar);
+        const group = document.createElement('div');
+        group.className = 'gantt-bar-group';
+        group.appendChild(bar);
+        barsContainer.appendChild(group);
     });
 }
 
