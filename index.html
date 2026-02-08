@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vinay Kr - BI Developer, Data Engineer & Analytics Expert. Specializing in Tableau, Power BI, Python automation, and end-to-end data pipelines.">
+    <meta name="keywords" content="BI Developer, Data Engineer, Tableau, Power BI, Python, Data Analytics, Dubai">
+    <title>Vinay Kr | BI Developer & Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">VK</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#alert-system" class="nav-link">Alerts</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Available for opportunities</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-name">Vinay Kr</span>
+                </h1>
+                <div class="hero-roles">
+                    <span class="role-text" id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Beyond traditional BI tools that just visualize data, I build <strong>proactive monitoring
+                        systems</strong>
+                    that detect anomalies and automatically alert stakeholders in real-time. From data collection
+                    to insights to action—complete end-to-end data engineering solutions.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="30">0</span><span class="stat-suffix">M+</span>
+                        <span class="stat-label">Revenue Impact</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="4">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="30">0</span><span class="stat-suffix">yr</span>
+                        <span class="stat-label">Forecast Models</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-frame">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="window-title">data_pipeline.py</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code><span class="keyword">from</span> <span class="module">easycherry</span> <span class="keyword">import</span> Alert
+<span class="keyword">import</span> <span class="module">pandas</span> <span class="keyword">as</span> pd
+
+<span class="decorator">@pipeline</span>
+<span class="keyword">def</span> <span class="function">transform_data</span>(source):
+    <span class="comment"># ETL Pipeline Magic ✨</span>
+    df = pd.read_sql(source)
+    insights = df.analyze()
+    
+    Alert.send(
+        channel=<span class="string">"slack"</span>,
+        message=<span class="string">"Pipeline complete!"</span>
+    )
+    <span class="keyword">return</span> insights</code></pre>
+                        </div>
+                    </div>
+                    <div class="floating-cards">
+                        <div class="float-card card-1">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18" />
+                                <path d="M18 17V9" />
+                                <path d="M13 17V5" />
+                                <path d="M8 17v-3" />
+                            </svg>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="float-card card-2">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                            <span>Real-time</span>
+                        </div>
+                        <div class="float-card card-3">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5" />
+                                <path d="M2 12l10 5 10-5" />
+                            </svg>
+                            <span>ETL/ELT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Bridging Data & Business Strategy</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a <strong>Business Analyst, BI Developer, and Data Engineer</strong> with a strong passion
+                        for turning complex data into meaningful business insights. My work bridges
+                        <span class="highlight">finance, analytics, and automation</span>—helping organizations make
+                        smarter, faster, and data-driven decisions.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>End-to-End Pipelines</h4>
+                                <p>Building automated data pipelines using Airbyte, dbt, and Kestra for seamless data
+                                    flow.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                                    <path d="M7 7h10M7 12h10M7 17h6" />
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Interactive Dashboards</h4>
+                                <p>Creating Tableau & Power BI dashboards for P&L tracking and real-time performance
+                                    monitoring.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v8l4.5 4.5" />
+                                    <circle cx="12" cy="14" r="8" />
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Custom Automation</h4>
+                                <p>Developed <code>easycherry</code> Python library for one-line automated Slack & email
+                                    alerts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="profile-placeholder">
+                            <div class="initials">VK</div>
+                            <div class="location-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                <span>Dubai, UAE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured: Alert Automation System -->
+    <section class="featured-system section" id="alert-system">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Capability</span>
+                <h2 class="section-title">Proactive Alert Automation System</h2>
+                <p class="section-subtitle">Beyond dashboards—actionable intelligence that works for you</p>
+            </div>
+            <div class="featured-content">
+                <div class="featured-text">
+                    <div class="featured-problem">
+                        <h3>🎯 The Problem with Traditional BI</h3>
+                        <p>Tools like <strong>Power BI</strong> and <strong>Tableau</strong> excel at visualizing
+                            metrics, but they don't <em>proactively act</em> on them. You need to manually check
+                            dashboards to discover issues—often too late.</p>
+                    </div>
+                    <div class="featured-solution">
+                        <h3>🚀 My Solution: End-to-End Alert Infrastructure</h3>
+                        <p>I've built <strong>Python-based infrastructure</strong> that integrates with APIs (ads,
+                            sales, performance data) to:</p>
+                        <ul class="solution-list">
+                            <li><strong>Detect anomalies</strong> like sudden drops in sales or spikes in costs</li>
+                            <li><strong>Automatically alert</strong> relevant stakeholders in real-time</li>
+                            <li>Deliver alerts via <strong>Slack, Email, and Telegram</strong></li>
+                            <li>Enable <strong>proactive decision-making</strong>, not reactive firefighting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="featured-visual">
+                    <div class="pipeline-diagram">
+                        <div class="pipeline-stage">
+                            <div class="stage-icon">📥</div>
+                            <span>Data Collection</span>
+                            <small>APIs, DBs, Files</small>
+                        </div>
+                        <div class="pipeline-arrow">→</div>
+                        <div class="pipeline-stage">
+                            <div class="stage-icon">⚙️</div>
+                            <span>ETL/Processing</span>
+                            <small>Airbyte, dbt, Kestra</small>
+                        </div>
+                        <div class="pipeline-arrow">→</div>
+                        <div class="pipeline-stage">
+                            <div class="stage-icon">🔍</div>
+                            <span>Analysis</span>
+                            <small>Anomaly Detection</small>
+                        </div>
+                        <div class="pipeline-arrow">→</div>
+                        <div class="pipeline-stage highlight">
+                            <div class="stage-icon">🔔</div>
+                            <span>Real-time Alerts</span>
+                            <small>Slack • Email • Telegram</small>
+                        </div>
+                    </div>
+                    <div class="tech-stack-display">
+                        <span class="tech-pill python">Python</span>
+                        <span class="tech-pill lib">easycherry</span>
+                        <span class="tech-pill api">Slack API</span>
+                        <span class="tech-pill api">Telegram API</span>
+                        <span class="tech-pill db">PostgreSQL</span>
+                        <span class="tech-pill orchestration">Kestra</span>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-examples">
+                <h4>Real-World Applications</h4>
+                <div class="examples-grid">
+                    <div class="example-card">
+                        <span class="example-icon">📉</span>
+                        <h5>Sales Drop Detection</h5>
+                        <p>Instant Slack alert when daily sales fall below threshold</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-icon">💰</span>
+                        <h5>Cost Spike Alerts</h5>
+                        <p>Email notification when ad spend exceeds budget</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-icon">🎫</span>
+                        <h5>Jira Automation</h5>
+                        <p>Auto-create tickets from database anomalies via Jira API</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-icon">💱</span>
+                        <h5>FX Rate Algorithms</h5>
+                        <p>Detect worst currency paths based on historical data</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-icon">₿</span>
+                        <h5>Crypto Monitoring</h5>
+                        <p>Utila integration for wallet and transaction tracking</p>
+                    </div>
+                    <div class="example-card">
+                        <span class="example-icon">📊</span>
+                        <h5>Data Ambiguity Alerts</h5>
+                        <p>Proactive notification for data quality issues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Skills & Tools</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon bi-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18" />
+                                <path d="M18 17V9" />
+                                <path d="M13 17V5" />
+                                <path d="M8 17v-3" />
+                            </svg>
+                        </div>
+                        <h3>Business Intelligence</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Excel (Advanced VBA)</span>
+                        <span class="skill-tag">Looker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon de-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                <path d="M2 17l10 5 10-5" />
+                                <path d="M2 12l10 5 10-5" />
+                            </svg>
+                        </div>
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">Airbyte</span>
+                        <span class="skill-tag">dbt</span>
+                        <span class="skill-tag">Kestra</span>
+                        <span class="skill-tag">ETL/ELT Pipelines</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">API Integrations</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon prog-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+                        <h3>Programming & Automation</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <a href="https://pypi.org/project/easy-cherry/" target="_blank" class="skill-tag link-tag"
+                            title="View on PyPI">
+                            easycherry (Custom Library)
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                class="external-link-icon">
+                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <span class="skill-tag">Slack API</span>
+                        <span class="skill-tag">Telegram API</span>
+                        <span class="skill-tag">Jira API</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon alert-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                                <path d="M13.73 21a2 2 0 01-3.46 0" />
+                            </svg>
+                        </div>
+                        <h3>Real-time Alerting</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Slack Alerts</span>
+                        <span class="skill-tag">Email Automation</span>
+                        <span class="skill-tag">Telegram Bots</span>
+                        <span class="skill-tag">Anomaly Detection</span>
+                        <span class="skill-tag">Threshold Monitoring</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon analytics-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <h3>Analytics & Strategy</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">P&L Analysis</span>
+                        <span class="skill-tag">Financial Forecasting</span>
+                        <span class="skill-tag">Market Research</span>
+                        <span class="skill-tag">FX Rate Analysis</span>
+                        <span class="skill-tag">M&A Advisory</span>
+                        <span class="skill-tag">Patent Analytics</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon cloud-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z" />
+                            </svg>
+                        </div>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="skill-category full-width">
+                    <div class="category-header">
+                        <div class="category-icon tools-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                            </svg>
+                        </div>
+                        <h3>Collaboration & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jira (+ API Automation)</span>
+                        <span class="skill-tag">Notion</span>
+                        <span class="skill-tag">Confluence</span>
+                        <span class="skill-tag">Utila (Crypto)</span>
+                        <span class="skill-tag">Slack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Journey / Gantt Chart Section -->
+    <section class="journey section" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Timeline</span>
+                <h2 class="section-title">My Journey</h2>
+            </div>
+            <div class="gantt-wrapper">
+                <div class="gantt-header">
+                    <h3>Career Roadmap</h3>
+                    <div class="gantt-legend">
+                        <div class="legend-item">
+                            <div class="legend-dot work"></div>Work
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Gantt Chart Container -->
+                <div class="gantt-chart" id="gantt-chart">
+                    <!-- Dynamic Content populated by JS -->
+                    <div class="gantt-years"></div>
+                    <div class="gantt-grid-lines"></div>
+                    <div class="gantt-bars"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker current">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <a href="https://www.finera.com/" target="_blank" class="company-logo finera"
+                                title="Visit finera.">
+                                <img src="./images/finera-logo.png" alt="finera logo">
+                            </a>
+                            <div class="job-info">
+                                <h3 class="job-title">Data Engineer | BI Developer</h3>
+                                <h4 class="company-name"><a href="https://www.finera.com/" target="_blank">finera.</a>
+                                </h4>
+                                <div class="job-meta">
+                                    <span class="location">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        Dubai, UAE
+                                    </span>
+                                    <span class="duration">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        April 2025 - Present
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="job-responsibilities">
+                            <li>Developed interactive <strong>Tableau dashboards</strong> presenting P&L reports,
+                                profitability insights, and key KPIs, enabling leadership to track performance in
+                                real-time</li>
+                            <li>Built <strong>Python-based proactive alert infrastructure</strong> integrating with APIs
+                                (ads, sales, performance data) to detect anomalies like sudden sales drops or cost
+                                spikes—automatically alerting stakeholders via <strong>Slack, Email, and
+                                    Telegram</strong></li>
+                            <li>Created <strong>easycherry</strong>—a custom Python library enabling one-line automated
+                                email and Slack message delivery, enhancing real-time alerting workflows</li>
+                            <li>Designed and deployed <strong>ETL/ELT pipelines</strong> using Airbyte, dbt, and Kestra
+                                for automated data reconciliation and transformation across multiple sources</li>
+                            <li>Developed <strong>Jira Automation via Jira API</strong> for bulk ticketing generation
+                                from database inputs, streamlining project management</li>
+                            <li>Implemented <strong>Utila integration</strong> for cryptocurrency monitoring and wallet
+                                management</li>
+                            <li>Created <strong>FX rate algorithms</strong> to detect worst currency conversion paths
+                                based on historical data analysis</li>
+                            <li>Implemented AWS-based data solutions (S3, Lambda) for scalable, production-ready
+                                analytics infrastructure</li>
+                        </ul>
+                        <div class="job-tech">
+                            <span>Tableau</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                            <span>Airbyte</span>
+                            <span>dbt</span>
+                            <span>Kestra</span>
+                            <span>AWS</span>
+                            <span>Slack API</span>
+                            <span>Jira API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <a href="https://www.viscadia.com/" target="_blank" class="company-logo viscadia"
+                                title="Visit Viscadia">
+                                <img src="./images/viscadia-logo.jpeg" alt="Viscadia logo">
+                            </a>
+                            <div class="job-info">
+                                <h3 class="job-title">Associate</h3>
+                                <h4 class="company-name"><a href="https://www.viscadia.com/"
+                                        target="_blank">Viscadia</a></h4>
+                                <div class="job-meta">
+                                    <span class="location">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        Gurugram, India
+                                    </span>
+                                    <span class="duration">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        July 2023 - October 2024
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="job-responsibilities">
+                            <li>Developed advanced <strong>business forecasting tools</strong> capable of projecting
+                                revenue up to 30 years, enhancing long-term financial planning</li>
+                            <li>Created tools for managing the entire sales pipeline, achieving a notable revenue impact
+                                of <strong>$30M USD/year</strong> and optimizing sales operations</li>
+                            <li>Developed custom software products tailored to <strong>automate client reports</strong>,
+                                improving efficiency and accuracy in report generation</li>
+                            <li>Built tools that generate comprehensive, detailed reports from charts and graphs,
+                                streamlining data analysis and visualization</li>
+                            <li>Created sophisticated <strong>Excel algorithms and VBA tools</strong> to meet diverse
+                                client business needs and provide tailored solutions for complex problems</li>
+                            <li>Provided strategic support to clients throughout their product lifecycle in the sales
+                                pipeline, ensuring effective strategy implementation</li>
+                        </ul>
+                        <div class="job-tech">
+                            <span>Excel VBA</span>
+                            <span>Financial Modeling</span>
+                            <span>Python</span>
+                            <span>Sales Analytics</span>
+                            <span>Report Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <a href="https://www.evalueserve.com/" target="_blank" class="company-logo evalueserve"
+                                title="Visit Evalueserve">
+                                <img src="./images/evalueserve-logo.png" alt="Evalueserve logo">
+                            </a>
+                            <div class="job-info">
+                                <h3 class="job-title">Analyst</h3>
+                                <h4 class="company-name"><a href="https://www.evalueserve.com/"
+                                        target="_blank">Evalueserve</a></h4>
+                                <div class="job-meta">
+                                    <span class="location">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        India
+                                    </span>
+                                    <span class="duration">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        June 2022 - June 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="job-responsibilities">
+                            <li>Assisted clients with <strong>Merger & Acquisition</strong> projects, helping them
+                                choose the right business partners, acquisitions, and vendors</li>
+                            <li>Conducted comprehensive <strong>market trend analyses</strong> to provide strategic
+                                insights and stayed abreast of market developments to identify current and potential
+                                clients</li>
+                            <li>Developed thought starters, RFQs, proposals, and participated in bids for new
+                                opportunities</li>
+                            <li>Led client interactions to identify and define their R&D, product, and business needs
+                            </li>
+                            <li>Generated proposals and led project managers to deliver high-quality reports</li>
+                            <li>Created high-quality reports, newsletters, proposals, and quarterly technology review
+                                teasers—published and presented to key stakeholders</li>
+                            <li>Utilized secondary searches, market research, SME interviews, surveys, blogs, news,
+                                <strong>PESTLE analysis</strong>, patent data analytics, and scientific literature to
+                                create holistic solutions
+                            </li>
+                            <li>Worked on <strong>patent analytics</strong> projects to identify key patterns, emerging
+                                technologies, trends, top players, geographies, and protection strategies</li>
+                            <li>Conducted similarity analysis, technology readiness studies, and market analysis for
+                                technology assessment studies</li>
+                        </ul>
+                        <div class="job-tech">
+                            <span>Market Research</span>
+                            <span>M&A Analysis</span>
+                            <span>Patent Analytics</span>
+                            <span>PESTLE Analysis</span>
+                            <span>Technology Assessment</span>
+                            <span>SME Interviews</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <a href="https://www.drreddys.com/" target="_blank" class="company-logo drl"
+                                title="Visit Dr. Reddy's">
+                                <img src="./images/dr-reddys-logo.png" alt="Dr. Reddy's logo">
+                            </a>
+                            <div class="job-info">
+                                <h3 class="job-title">GMO Intern</h3>
+                                <h4 class="company-name"><a href="https://www.drreddys.com/" target="_blank">Dr. Reddy's
+                                        Laboratories</a></h4>
+                                <div class="job-meta">
+                                    <span class="location">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                            <circle cx="12" cy="10" r="3" />
+                                        </svg>
+                                        India
+                                    </span>
+                                    <span class="duration">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                            <line x1="16" y1="2" x2="16" y2="6" />
+                                            <line x1="8" y1="2" x2="8" y2="6" />
+                                            <line x1="3" y1="10" x2="21" y2="10" />
+                                        </svg>
+                                        August 2021 - January 2022
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="job-responsibilities">
+                            <li>Collaborated with senior management on strategic planning initiatives</li>
+                            <li>Generated reports impacting <strong>spare parts procurement worth ₹15 CR</strong></li>
+                            <li>Utilized data collection, market analysis, and benchmarking for business insights</li>
+                            <li>Conducted breakdown analysis using WWLBA, why-why Analysis, FTA, and RCA</li>
+                            <li>Received endorsement from GMO Head for exceptional performance</li>
+                        </ul>
+                        <div class="job-tech">
+                            <span>Data Analysis</span>
+                            <span>TPM</span>
+                            <span>Root Cause Analysis</span>
+                            <span>Benchmarking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+                <button class="filter-btn" data-filter="analysis">Analysis</button>
+                <button class="filter-btn" data-filter="case-study">Case Studies</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured" data-category="dashboard">
+                    <div class="project-image dashboard-preview">
+                        <div class="dashboard-mock">
+                            <div class="chart bar-chart">
+                                <div class="bar" style="height: 70%"></div>
+                                <div class="bar" style="height: 90%"></div>
+                                <div class="bar" style="height: 60%"></div>
+                                <div class="bar" style="height: 85%"></div>
+                                <div class="bar" style="height: 75%"></div>
+                            </div>
+                            <div class="kpi-cards">
+                                <div class="kpi">$2.4M</div>
+                                <div class="kpi">+23%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag power-bi">Power BI</span>
+                            <span class="tag featured-tag">Featured</span>
+                        </div>
+                        <h3 class="project-title">Sales Analysis with Forecasting</h3>
+                        <p class="project-description">
+                            Comprehensive sales analytics dashboard featuring trend analysis,
+                            forecasting models, and interactive visualizations for data-driven decisions.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image dashboard-preview crypto">
+                        <div class="dashboard-mock">
+                            <div class="chart line-chart">
+                                <svg viewBox="0 0 100 50" preserveAspectRatio="none">
+                                    <path d="M0,40 L20,35 L40,25 L60,30 L80,15 L100,10" fill="none"
+                                        stroke="url(#cryptoGrad)" stroke-width="2" />
+                                    <defs>
+                                        <linearGradient id="cryptoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#f7931a" />
+                                            <stop offset="100%" style="stop-color:#627eea" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="crypto-icons">
+                                <span>₿</span>
+                                <span>Ξ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag power-bi">Power BI</span>
+                        </div>
+                        <h3 class="project-title">Crypto Market Trends</h3>
+                        <p class="project-description">
+                            Real-time cryptocurrency market analysis dashboard tracking price movements,
+                            volume trends, and market sentiment indicators.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image dashboard-preview healthcare">
+                        <div class="dashboard-mock">
+                            <div class="health-icons">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                </svg>
+                            </div>
+                            <div class="pie-chart">
+                                <div class="pie-segment"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag power-bi">Power BI</span>
+                        </div>
+                        <h3 class="project-title">Healthcare Dashboard</h3>
+                        <p class="project-description">
+                            Healthcare analytics platform visualizing patient metrics, treatment outcomes,
+                            and operational efficiency KPIs.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="analysis">
+                    <div class="project-image analysis-preview">
+                        <div class="forecast-visual">
+                            <div class="forecast-line"></div>
+                            <div class="forecast-points">
+                                <span class="point"></span>
+                                <span class="point"></span>
+                                <span class="point"></span>
+                            </div>
+                            <span class="year-label">30 Year Forecast</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag excel">Excel</span>
+                        </div>
+                        <h3 class="project-title">Business Financial Forecast Model</h3>
+                        <p class="project-description">
+                            Advanced financial forecasting model capable of projecting revenue scenarios
+                            up to 30 years with multiple scenario analysis.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image dashboard-preview amazon">
+                        <div class="dashboard-mock">
+                            <div class="amazon-logo">
+                                <span>amazon</span>
+                            </div>
+                            <div class="metrics-row">
+                                <div class="metric">📦 Orders</div>
+                                <div class="metric">⭐ Reviews</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag power-bi">Power BI</span>
+                        </div>
+                        <h3 class="project-title">Amazon Dashboard</h3>
+                        <p class="project-description">
+                            E-commerce analytics dashboard tracking product performance,
+                            customer reviews, and sales metrics.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image dashboard-preview zomato">
+                        <div class="dashboard-mock">
+                            <div class="zomato-icon">🍽️</div>
+                            <div class="rating-display">
+                                <span class="stars">★★★★☆</span>
+                                <span class="rating-text">4.2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag power-bi">Power BI</span>
+                        </div>
+                        <h3 class="project-title">Zomato Restaurants Analysis</h3>
+                        <p class="project-description">
+                            Restaurant industry analytics covering ratings, cuisine trends,
+                            price analysis, and location-based insights.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="case-study">
+                    <div class="project-image case-study-preview">
+                        <div class="case-study-visual">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                            <span class="industry-label">Oil & Gas</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag case-study-tag">Case Study</span>
+                        </div>
+                        <h3 class="project-title">Startup Opportunity - Oil & Gas Sector</h3>
+                        <p class="project-description">
+                            Strategic analysis identifying startup opportunities within the
+                            Oil & Gas industry with market entry recommendations.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="analysis">
+                    <div class="project-image analysis-preview automotive">
+                        <div class="automotive-visual">
+                            <span class="car-icon">🚗</span>
+                            <div class="trend-arrow">↗</div>
+                            <span class="years">5 Year Outlook</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag research">Research</span>
+                        </div>
+                        <h3 class="project-title">Automotive Sector - 5 Year Analysis</h3>
+                        <p class="project-description">
+                            Market research report analyzing automotive industry trends,
+                            EV adoption rates, and future growth projections.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OeIGMOWMcBud5BNxnPmTUhbOQih-53Tg"
+                                target="_blank" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <a href="https://www.bits-pilani.ac.in/dubai/" target="_blank" class="edu-icon"
+                        title="Visit BITS Pilani Dubai">
+                        <img src="./images/bits-pilani-logo.png" alt="BITS Pilani logo">
+                    </a>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Master of Business Administration (MBA)</h3>
+                        <h4 class="edu-major">Business Analytics</h4>
+                        <p class="edu-school"><a href="https://www.bits-pilani.ac.in/dubai/" target="_blank">Birla
+                                Institute of Technology and Science (BITS), Pilani</a></p>
+                        <div class="edu-meta">
+                            <span class="edu-location">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                Dubai Campus
+                            </span>
+                            <span class="edu-year">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                Jan 2025 - Dec 2026
+                            </span>
+                        </div>
+                    </div>
+                    <div class="edu-badge current">In Progress</div>
+                </div>
+                <div class="education-card">
+                    <a href="https://dtu.ac.in/" target="_blank" class="edu-icon" title="Visit DTU">
+                        <img src="./images/dtu-logo.png" alt="DTU logo">
+                    </a>
+                    <div class="edu-content">
+                        <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                        <h4 class="edu-major">Mechanical Engineering</h4>
+                        <p class="edu-school"><a href="https://dtu.ac.in/" target="_blank">Delhi Technological
+                                University (Formerly DCE)</a></p>
+                        <div class="edu-meta">
+                            <span class="edu-location">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                Delhi, India
+                            </span>
+                            <span class="edu-year">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <line x1="16" y1="2" x2="16" y2="6" />
+                                    <line x1="8" y1="2" x2="8" y2="6" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                </svg>
+                                2018 - 2022
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="cert-title">Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16 18 22 12 16 6" />
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+                        <span>Introduction to Programming Using Python</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon six-sigma">
+                            <span>6σ</span>
+                        </div>
+                        <span>Lean Six Sigma White Belt</span>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+                            </svg>
+                        </div>
+                        <span>1 Million Prompters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always interested in discussing new projects, data challenges,
+                        or opportunities to bring data-driven insights to your organization.
+                    </p>
+                    <div class="contact-cards">
+                        <a href="mailto:vinay.me223@gmail.com" class="contact-card">
+                            <div class="contact-icon email">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">vinay.me223@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+971561355498" class="contact-card">
+                            <div class="contact-icon phone">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+971 56 135 5498</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/vinaykr-er" target="_blank" class="contact-card">
+                            <div class="contact-icon linkedin">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/vinaykr-er</span>
+                            </div>
+                        </a>
+                        <div class="contact-card location-card">
+                            <div class="contact-icon location">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Dubai, United Arab Emirates</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="globe-animation">
+                        <div class="globe"></div>
+                        <div class="location-pin">
+                            <div class="pin-pulse"></div>
+                            <div class="pin-icon">📍</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">VK</span>
+                    <p>BI Developer & Data Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/vinaykr-er" target="_blank" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                    <a href="mailto:vinay.me223@gmail.com" aria-label="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Vinay Kr. Crafted with data & passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>
