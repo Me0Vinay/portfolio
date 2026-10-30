@@ -333,8 +333,8 @@ document.addEventListener("click", (e) => {
 
 /* ---------------- copy email ---------------- */
 $("#copyEmail").addEventListener("click", async () => {
-  try { await navigator.clipboard.writeText("vinaykr.me@gmail.com"); toast("Email copied: vinaykr.me@gmail.com"); }
-  catch (e) { toast("vinaykr.me@gmail.com"); }
+  try { await navigator.clipboard.writeText("vinay.me223@gmail.com"); toast("Email copied: vinay.me223@gmail.com"); }
+  catch (e) { toast("vinay.me223@gmail.com"); }
 });
 
 /* ---------------- project modal ---------------- */
